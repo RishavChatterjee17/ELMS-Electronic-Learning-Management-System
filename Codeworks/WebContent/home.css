@@ -1,0 +1,173 @@
+html{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  }
+  body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+video{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  attachment: fixed;
+  overflow: hidden;
+}
+
+.logo{
+height: 50px;
+width: 50px;
+background-color: rgba(0, 0, 0, 0.8);
+float: left;
+margin: 3px 15px 0px 40px;
+position: relative;
+z-index: 1;
+}
+.logo:hover{
+  cursor: pointer;
+}
+.nav-menu{
+  margin: 30px 5px 0px 30px;
+  position: relative;
+  z-index: 1;
+  font-family:Copperplate Gothic Light;
+  font-size:80%;
+}
+
+.nav-menu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+#left{
+  margin-left: 25px;
+  float: left;
+  padding: 10px;
+}
+.signup{
+  float: right;
+  margin-right: 35px;
+  padding: 10px;
+}
+.signin{
+  float: right;
+  margin-right: 12px;
+  padding: 10px;
+}
+.dropdown{
+  position: relative;
+  float: left;
+  padding: 10px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+li a, .dropdown{
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 10px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7);
+   width: auto;
+}
+li a:hover{
+  color: rgba(0, 0, 0, 1);
+  border-bottom: 2px solid black;
+  -webkit-transition: 0.09s;
+  transition: 0.09s;
+}
+.dropdown:hover{
+  cursor: pointer;
+  border-bottom: .5px solid black;
+  -webkit-transition: 0.09s;
+  transition: 0.09s;
+}
+.dropdown-menu{
+  top: 76%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  height: 300px;
+  width: 150px;
+  margin-top: 11.5px;
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  font-size: 10px;
+}
+.dropdown-menu a{
+  color: black;
+  font-size: 12px;
+  font-weight: normal;
+  border: .5px solid black;
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  height: auto;
+ 
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+  height: auto;
+}
+.dropdown-menu a:hover{
+  color: white;
+  border: .5px solid black;
+  background-color: rgba(0, 0, 0, 1);
+  height: auto;
+}
+.section{
+  width: 100%;
+  background-image: url(black.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+}
+.section-footer footer{
+  width: 100%;
+  height: 200px;
+  padding: 1em;
+  margin-top: 54%;
+  font-family:Copperplate Gothic Light;
+  font-size:90%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+.social{
+  margin-right: 5%;
+}
+.footer ab {
+  float: right;
+  margin-top: 40px;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+.foot{
+  margin-top: -10px;
+}
+.foot a{
+  padding: 10px;
+  color: rgb(0, 0, 205);
+}
+.img{
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
